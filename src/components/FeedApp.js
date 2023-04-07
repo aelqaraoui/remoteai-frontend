@@ -8,7 +8,7 @@ import axios from 'axios';
 
 const fetchData = async (profile) => {
   // Replace this URL with the actual API endpoint you want to fetch data from
-  const url = 'http://localhost:8000/process_data';
+  const url = 'http://159.89.228.162:8000/process_data';
 
   // Replace this with the data you want to send in the POST request
   const postData = {
