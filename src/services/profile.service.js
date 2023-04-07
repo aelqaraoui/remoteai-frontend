@@ -1,7 +1,7 @@
 // services/profile.service.js
 import axios from 'axios';
 
-const API_URL = 'http://159.89.228.162:1000/api/profile/';
+const API_URL = 'https://159.89.228.162:1000/api/profile/';
 
 class ProfileService {
     async createProfile(userId, education, skills, workExperience, achievements, interests) {
