@@ -1,0 +1,14 @@
+.job-listings {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh; /* Adjust this value to set the height of the container */
+}
+
+.centered-text {
+  margin: 0;
+}

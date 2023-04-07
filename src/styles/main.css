@@ -1,0 +1,115 @@
+/* main.css */
+body {
+    font-family: "Space Mono", monospace, sans-serif;
+    line-height: 1.6;
+    background-color: #000; /* Set background color to black */
+    margin: 0;
+    padding: 0;
+    color: #ccc; /* Set default text color to light gray */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex; /* Add flex display */
+  }
+  
+  .left-column {
+    background-color: #000; /* Set background color to black */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 250px; /* Set the width of the left column */
+    height: 100vh; /* Make the left column span the entire viewport height */
+    display: flex; /* Add flex display */
+    flex-direction: column; /* Stack header and footer vertically */
+    justify-content: space-between; /* Position header at the top and footer at the bottom */
+  }
+  
+  .main-content {
+    flex: 1; /* Fill remaining space after the left column */
+    padding-left: 20px; /* Add padding between the left column and main content */
+    background-color: #000; /* Set background color to black */
+  }
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.job-card {
+    background-color: #222; /* Set a dark gray background */
+    margin: 1rem 0;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #333; /* Add a border */
+  }
+
+.job-card h3 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #333;
+
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form label, form input {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px; /* Adjust font size */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Additional styles for a minimalistic grayscale design */
+h1, h2, h3, p {
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+}
+
+form {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+  
