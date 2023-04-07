@@ -1,7 +1,7 @@
 // services/auth.service.js
 import axios from 'axios';
 
-const API_URL = 'https://159.89.228.162:4000/api/users/';
+const API_URL = 'https://spheric-method-373719.uc.r.appspot.com/api/users/';
 
 class AuthService {
   async register(name, email, password) {
