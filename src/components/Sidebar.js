@@ -20,7 +20,7 @@ const Sidebar = () => {
       <div className="footer">
         {/* Add your footer content */}
         <p>remoteAI.ai is a personalized feed of remote AI jobs. create a profile to get personalized jobs that get you hired. this site is very much a work in progress. please send suggestions and feedback!</p>
-        <a href='/'>Twitter</a> 
+        <a href='https://twitter.com/amine_elqaraoui'>Twitter</a> 
         <br/><br/>
       </div>
     </div>
