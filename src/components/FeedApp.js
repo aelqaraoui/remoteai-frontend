@@ -37,7 +37,18 @@ const FeedApp = (props) => {
       props.setRequiresLogin(false)
 
       profileServiceInstance.getProfileByUserId(currentUser.id)
-        .then(fetchData).then((fetchedData) => {
+        .then(fetchData)
+        .catch((error) => {
+          console.error('Error fetching profile:', error);
+          return fetchData({
+            education: '',
+            skills: '',
+            workExperience: '',
+            acheivements: '',
+            interests: ''
+          })
+        })
+        .then((fetchedData) => {
           let pl = [];
     
           for(let i = 0; i < fetchedData['matches'].length; i++) {
@@ -58,7 +69,7 @@ const FeedApp = (props) => {
           setLoading(false);
         })
         .catch((error) => {
-          console.error('Error fetching profile:', error);
+          console.error('Error fetching jobs:', error);
         });
     } else {
       props.setRequiresLogin(true)
