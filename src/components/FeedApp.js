@@ -46,7 +46,7 @@ const FeedApp = (props) => {
             workExperience: '',
             acheivements: '',
             interests: ''
-          })
+          });
         })
         .then((fetchedData) => {
           let pl = [];

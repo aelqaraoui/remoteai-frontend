@@ -14,7 +14,7 @@ const Sidebar = () => {
         {/* Add menu items */}
         <ul>
           <li><Link to="/" className='logo'>Jobs</Link></li>
-          <li><a href='https://buy.stripe.com/eVafZqeiUeRf46Y6ot' className='logo'>Post a job</a></li>
+          {/*<li><a href='https://buy.stripe.com/eVafZqeiUeRf46Y6ot' className='logo'>Post a job</a></li>*/}
         </ul>
       </div>
       <div className="footer">
